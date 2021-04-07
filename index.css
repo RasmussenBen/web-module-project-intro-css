@@ -79,16 +79,32 @@ blockquote, q {
         background-color: #FF764E;
         margin-left: 10%;
     }
+    .orange:hover {
+        opacity: 0.5;
+        color: #4f4f4f;
+        transition: 0.25s;
+    }
     .blue {
         background-color: #5ED3EB;
         margin:0 24%;
+    }
+    .blue:hover {
+        opacity: 0.5;
+        color: #4f4f4f;
+        transition: 0.25s;
     }
     .yellow {
         background-color: #FFCD69;
         margin-right: 10%;
     }
+    .yellow:hover {
+        opacity: 0.5;
+        color: #4f4f4f;
+        transition: 0.25s;
+    }
 
     /* Top Section style */
+
     .top {
     position: relative;
     }
@@ -111,6 +127,45 @@ blockquote, q {
         position: absolute;
         bottom: 20%;
     }
+
+    /* About Section style */
+
+    .about {
+        font-size: 2rem;
+        background-color:#DDB9A3;
+        color: #fff;
+        text-align:center;
+        padding:1%;
+        width:90%;
+        margin:0 auto;
+    }
+
+    /* Notice Section style */
+
+    .notice img {
+        width: 16%;
+        margin: 0 42%;
+    }
+    .notice p {
+        font-size: 1.5rem;
+        text-align:center;
+        padding:1%;
+        width:25%;
+        margin:0 auto;
+    }
+    .notice p:hover {
+        background-color: #DDB9A3;
+        border-radius: 10px;
+        transition: .25s;
+    }
+    .notice span {
+        font-weight: bold;
+    }
+    .notice span:hover {
+        text-decoration: underline;
+    }
+
+    /* Footer section style */
     .footerImage {
         background-image: url("assets/footer_img.jpg");
         height: 60vh;
